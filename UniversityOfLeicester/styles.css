@@ -1,0 +1,413 @@
+/* Styles for all devices
+########################################################################################################################################################################*/
+
+/* GENERAL
+******************************************************/
+body,html {margin:0; padding:0; font-family:Arial, Helvetica, sans-serif; color:#333333; word-wrap:break-word; height:100%; -webkit-text-size-adjust: none; font-size:1em; background:#EAEADE;}
+
+.hiddenStructure, .screen-reader-text {display:none;}
+img {max-width:100%; border:none;}
+.inner-wrapper {padding:10px; position:relative; height:100%; overflow:hidden;}
+
+/* Text */
+h2 {font-size:1.7em; margin: .3em 0 .5em 0;}
+h3 {font-size:.9em; line-height:1.2em; margin:0 0 .2em 0;}
+p {font-size:1em; line-height:1.6em; padding:0; margin:0 0 0.8em 0;}
+ol, ul {line-height:1.4em;}
+
+.nobreak {white-space:nowrap;}
+
+/* Links */
+a, a:visited {color:#FFF; text-decoration:none; font-weight:normal; font-size:1.2em;}
+a:hover {text-decoration:none;}
+h2 a {font-weight:bold;}
+a.button {padding:10px; background:#0065CB; font-weight:bold; font-size:0.9em; border:1px #FFF solid; display:inline-block;}
+a.button:hover {color:#0065CB; background:#FFFFFF; border:1px #0065CB solid; text-decoration:none;}
+a.button:hover:after {color:#0065CB;}
+.quote-inner a:after, a.button:after {content:"\e008"; font-family: 'icomoon'; display:inline-block; font-weight:normal; color:#FFF;}
+
+/* QUOTE BOX COLOURS
+******************************************************/
+#tab1 .quote-inner {background:#6C8936;}
+#tab2 .quote-inner {background:#B05B0B;}
+#tab3 .quote-inner {background:#B9181D;}
+#tab4 .quote-inner {background:#009999;}
+
+/* LOGO
+******************************************************/
+#uni-logo {display:inline-block; padding:10px 0 10px 10px;}
+.logo {width:180px; height:44px; background:url('../../images/hp/logo-sprite.png') no-repeat; background-size:100%;}
+
+/* HEADER
+******************************************************/
+#header {margin:0 0 .5em 0 ; background:#333333;}
+/* Mobile menu */
+#mobilelinks {display:none;}
+.mobilemenu, .mobilemenu #portal-searchbox {display:block;}
+#mainmobilelinks a {padding:3px 6px 0 6px; position:absolute; right:5px; top:5px; background:rgba(0, 0, 0, 0.4); margin:4px 4px 6px 4px; border:1px solid rgba(255, 255, 255, 0.6); border-radius:6px; -webkit-border-radius:6px; -moz-border-radius:6px;}
+#mainmobilelinks a.icon-alone{font-size:175%; padding:7px; opacity:.7;}
+.mobilemenu #portal-searchbox {clear:both; float: none; padding:18px 0 18px 14px; margin:0;}
+.mobilemenu	#portal-searchbox input[type="text"] {width:202px;}
+#mainmobilelinks, .mobilemenu {width:100%; margin:0px;}
+ul#mobilelinks {margin:0; padding:0;}
+#mobilelinks li {list-style:none;}
+#mobilelinks li a{border-bottom:1px solid #fff; padding:14px;}
+#mainmobilelinks a, #mainmobilelinks a:visited, #mobilelinks li a:link, #mobilelinks li a:visited, #mobilebacktotop a, .mobilefooterextra {color:#fff!important; display:block;}
+
+/* SEARCH
+******************************************************/
+#portal-searchbox {display:none;}
+
+/* TOP ROW
+******************************************************/
+#row-top {width:100%;}
+#row-top .inner-wrapper {padding:0 0 10px 0;}
+/* Straplines */
+#row-top .mobile-strapline {padding:10px 10px 0 10px; font-size:1.1em; text-shadow: 0px 2px 3px #FFF;}
+#row-top .strapline {display:none;}
+#row-top .phone-strapline {font-weight:bold; display:block; color:#FFF; font-size:1.7em; margin:10px; text-shadow:none; font-style:normal; background:#26B6E6; opacity:.9; padding:5px 10px;}
+#row-top a .phone-strapline {font-size:1.4em;}
+/* Quotes */
+#row-top .quote-outer {padding:0 .5em .5em .5em;}
+#row-top .quote-inner {color:#FFFFFF; padding:10px 20px 5px 20px; overflow:hidden; /*box-shadow: 0px 0px 15px 5px #000;*/}
+#row-top .quote-inner ul {list-style:none; margin:0; padding:0;}
+#row-top .quote-inner ul li {margin:0 0 12px 0;}
+#row-top .quote-inner hr {height:0px; border:none; border-top:#5E772F 1px solid; border-bottom:#B4C890 1px solid;}
+/* Calls to action */
+#row-top #tab1 .quote-inner ul.ctas {margin-top:10px; line-height:2em;}
+#row-top #tab1 .quote-inner ul.ctas li a:after {content:"";}
+#row-top #tab1 .quote-inner ul.ctas li a:before {color:#FFFFFF; font-family: 'icomoon'; font-weight:normal; margin:0 7px 0 0; font-size: 150%; display:inline-block; float:left;}
+#row-top #tab1 .quote-inner ul.ctas li.information {clear:left; display:none;}
+#row-top #tab1 .quote-inner ul.ctas li.book a:before {content:"\e601";}
+#row-top #tab1 .quote-inner ul.ctas li.prospectus a:before {content:"\e600";}
+/* Course search */
+#row-top #tab1 .quote-inner form.course-search {padding:0; margin:20px 0; overflow:hidden; clear:both;}
+#row-top #tab1 .quote-inner form.course-search .checkboxes {display:none;}
+#row-top #tab1 .quote-inner form.course-search input.quick-search {width:100%; box-sizing: border-box; -webkit-box-sizing:border-box; -moz-box-sizing: border-box; margin:0 0 .5em 0; font-weight:bold; color:#666; padding:10px;}
+#row-top #tab1 .quote-inner form.course-search input.search-button {padding:10px; border-radius: 10px; width:100%; font-size:100%; height:40px;}
+/* Tabs */
+#row-top ul.tabs {display:none;}
+
+/* NEWS ROW
+******************************************************/
+#row-news {background:#F1F2ED; border-bottom:#DEDED4 solid 1px; border-top:#FFF solid 1px; padding:0;}
+/* Flexslider */
+.flex-container a:active,
+.flexslider a:active,
+.flex-container a:focus,
+.flexslider a:focus {outline: none;}
+.slides,
+.flex-control-nav,
+.flex-direction-nav {margin: 0; padding: 0; list-style: none;}
+.flexslider {margin: 0; padding: 0;}
+.flexslider .slides > li.flex-active-slide {opacity:1;}
+.flexslider .slides > li {display: none; -webkit-backface-visibility: hidden; opacity:0.3;} /* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .slides > li + li {display:none;}
+.flex-pauseplay span {text-transform: capitalize;}
+.slides:after {content: "\0020"; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}
+html[xmlns] .slides {display: block;}
+* html .slides {height: 1%;}
+/* No JavaScript Fallback */
+/* If you are not using another script, such as Modernizr, make sure you
+ * include js that eliminates this class on page load */
+.no-js .slides > li:first-child {display: block;}
+#flex-wrapper {overflow:hidden; padding:0 .5em;}
+.flexslider {margin: 0 auto 1em auto; position: relative; zoom: 1;}
+.flex-viewport {max-height: 2000px; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; -o-transition: all 1s ease; transition: all 1s ease; overflow:visible!important;}
+.loading .flex-viewport {max-height: 300px;}
+.flexslider .slides {zoom: 1; padding:0 0 3.5em 0;}
+.carousel li {margin-right: 5px;}
+.flex-direction-nav {*height: 0;}
+.flex-direction-nav a {display: block; width: 50px; height: 50px; margin: -20px 0 0; position: absolute; bottom:0; z-index: 10; overflow: hidden; opacity: 0; cursor: pointer; color:#333/*Fallback*/; color: rgba(0,0,0,0.8); text-shadow: 1px 1px 0 rgba(255,255,255,0.3); -webkit-transition: all .3s ease; -moz-transition: all .3s ease; transition: all .3s ease;}
+.flexslider .flex-prev {opacity: 0.8; left:10px; background:#FFF; border-radius:5px; border:2px #666 solid;}
+.flexslider .flex-next {opacity: 0.8; right:10px; background:#FFF; border-radius:5px; border:2px #666 solid;}
+.flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover {opacity: 1;}
+.flex-direction-nav .flex-disabled {opacity: 0!important; filter:alpha(opacity=0); cursor: default;}
+.flex-direction-nav a:before  {content:'\e603'; font-family: 'icomoon'; display: inline-block; font-size:3em; line-height:.9em;}
+.flex-direction-nav a.flex-next:before  {content: '\e008';}
+/* Slides and cards */
+.flexslider .slides a {color:#333333;}
+.flexslider .card {border-radius:5px; background:#FFF; padding:10px; margin:.5em 0.4%; border:2px solid #EAEADE; -webkit-transition:border 250ms linear; -moz-transition:border 250ms linear; -o-transition:border 250ms linear; transition:border 250ms linear; overflow:hidden;}
+.flexslider .card:hover {border:2px solid rgba(200,200,170,1);}
+.flexslider .card img {max-width:30%; height:auto; float:left; margin:0 .5em .5em 0;}
+.flexslider .card p {font-size:0.8em; line-height:1.5em;}
+
+/* CORPORATE ROW
+******************************************************/
+#row-corporate {background:#EAEADE; border-bottom:#DEDED4 solid 1px; border-top:#FFF solid 1px;}
+#row-corporate .corp-but {margin:.4em 0; padding:0; background:#333; position:relative;}
+#row-corporate .corp-but:hover {background-color:#111;}
+#row-corporate .corp-but-pic {width:75px; height:75px; float:left;}
+#row-corporate .az .corp-but-pic {background:url('../../images/hp/corporate-sprite.jpg') no-repeat; background-size:100%;}
+#row-corporate .maps .corp-but-pic {background:url('../../images/hp/corporate-sprite.jpg') no-repeat left -75px; background-size:100%;}
+#row-corporate .jobs .corp-but-pic {background:url('../../images/hp/corporate-sprite.jpg') no-repeat left -150px; background-size:100%;}
+#row-corporate .about .corp-but-pic {background:url('../../images/hp/corporate-sprite.jpg') no-repeat left -225px; background-size:100%;}
+#row-corporate .corp-but-text {display:table; height:75px; padding:0 1em;}
+#row-corporate .corp-but-text p {display:table-cell; vertical-align:middle; font-size:1em; font-weight:bold; text-shadow: 2px 2px 5px #000; line-height:1.2em;}
+
+/* AWARDS ROW
+******************************************************/
+#row-awards {background:#EAEADE; border-top:#FFF solid 1px;}
+#row-awards .award-wrapper {padding:0 1%;}
+#row-awards .award {height:100px; display:table; margin:10px auto;}
+#row-awards .award p {display:table-cell; vertical-align:middle;}
+
+#row-awards .one {border-bottom:1px solid rgba(0, 0, 0, 0.1);}
+#row-awards .one .award p {font-family: 'Oswald', Charcoal, sans-serif; color:#A7A7A0; padding-top:15px; text-align:right;}
+#row-awards .one .award:hover p {color:#555;}
+#row-awards .one .award .line-one {font-size:2em;}
+#row-awards .one .award .line-two {font-size:0.9em;}
+
+#row-awards .two {border-top:1px solid #FFF; border-bottom:1px solid rgba(0, 0, 0, 0.1);}
+#row-awards .two .award .award-pic {background:url('../../images/hp/awards-sprite-queens.png') no-repeat left top;  height:100px; width:80px; float:left;}
+#row-awards .two .award:hover .award-pic {background:url('../../images/hp/awards-sprite-queens.png') no-repeat left -100px;}
+#row-awards .two .award p {font-family:Georgia, "Times New Roman", Times, serif; color:#A1A19A;}
+#row-awards .two .award:hover p {color:#555;}
+#row-awards .two .award .line-one {font-size:1.1em; font-weight:bold;}
+
+#row-awards .three {border-top:1px solid #FFF;}
+#row-awards .three .award p {font-family:Arial, Helvetica, sans-serif; color:#A1A19A; text-align:right;}
+#row-awards .three .award:hover p {color:#555;}
+#row-awards .three .award .line-one {font-size:1em; font-weight:bold;}
+#row-awards .three .award .line-two {font-size:0.7em;}
+
+/* FOOTER ROW
+******************************************************/
+#row-footer {background:#333333; color:#CCC; overflow:hidden; padding:0;}
+#row-footer .inner-wrapper {padding:0;}
+#row-footer #cssmenu, #row-footer #cssmenu ul, #row-footer #cssmenu li, #row-footer #cssmenu a {margin: 0; padding: 0; border: 0; list-style: none; position: relative;}
+#row-footer #cssmenu ul li {font-size:1.2em; text-shadow: 2px 2px 5px #000; border-bottom:1px #666666 solid; padding:.7em .5em;}
+#row-footer #cssmenu ul li:last-child {border:none;}
+#row-footer #cssmenu ul li ul {margin-top:.5em;}
+#row-footer #cssmenu ul li ul li {font-size:80%; text-shadow:none; border-bottom:none; line-height:1.5em;}
+#row-footer #cssmenu ul li ul li a:after {content:"\e008"; font-family: 'icomoon'; display:inline-block; font-weight:normal; color:#FFF;}
+#row-footer #cssmenu ul li ul li a.icon-alone:after {content:"";}
+#row-footer #cssmenu ul li a span.header {display: block;}
+#row-footer #cssmenu ul li.has-sub a span.header {background: url('../../images/hp/accordion/icon_plus.png') 96% center no-repeat;}
+#row-footer #cssmenu ul li.has-sub.active a span.header {background: url('../../images/hp/accordion/icon_minus.png') 96% center no-repeat;}
+#row-footer #cssmenu ul ul {display: none;}
+#row-footer #cssmenu ul ul a {display: block;}
+#row-footer #cssmenu ul li.connect ul li, #row-footer #cssmenu ul li.connect ul li a, #row-footer #cssmenu ul li.connect ul li a div {display:inline;}
+#row-footer #cssmenu ul li.connect ul {margin:.75em 0 0 0;}
+#row-footer #cssmenu ul li.connect ul li a div {font-size:200%; margin:0 .25em 0 0;}
+#row-footer #cssmenu ul li.connect ul li a.social {display:block; margin:1em 0 0 0;}
+
+/* FORMS
+******************************************************/
+input[type="submit"], input[type="reset"], .reply-to-comment-button, input.destructive[type="submit"] {background-color: #D7D7D7; background-image: -moz-linear-gradient(0px 100% 90deg, #BBBBBB, #FFFFFF); border: 1px solid #B7B7B7; border-radius: 23px 23px 23px 23px; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); color: #444444; font-family: Arial,Helvetica,sans-serif; font-size: 90%; font-weight: bold; line-height: 1em; padding: 6px 12px; text-shadow: 0 1px 1px rgba(255, 255, 255, 0.85); cursor:pointer;}
+input[type="submit"]:hover, .reply-to-comment-button:hover {background-color: #75AD0A; background-image: -moz-linear-gradient(0px 100% 90deg, #5B8907, #75AD0A); border: 1px solid #5B8907; color: #FFFFFF; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.45);}
+input[type="text"] {background-color: #FFFFFF; background-image: -moz-linear-gradient(0% 12% 90deg, #FFFFFF, #999999); border: 1px solid #DDDDDD; border-radius: 4px 4px 4px 4px; color: #444444; font-family: Arial,Helvetica,sans-serif; font-size: 1em; padding: 5px 8px;}
+input.searchField {-moz-appearance: searchfield;}
+
+/* ICOMOON
+******************************************************/
+@font-face {font-family: 'icomoon'; src:url('../../fonts/hp/icomoon.eot?-sba468'); src:url('../../fonts/hp/icomoon.eot?#iefix-sba468') format('embedded-opentype'), url('../../fonts/hp/icomoon.woff?-sba468') format('woff'), url('../../fonts/hp/icomoon.ttf?-sba468') format('truetype'), url('../../fonts/hp/icomoon.svg?-sba468#icomoon') format('svg'); font-weight: normal; font-style: normal;}
+[data-icon]:before {font-family: 'icomoon'; content: attr(data-icon); speak: none; font-weight: normal; -webkit-font-smoothing: antialiased;}
+[class^="icon-"], [class*=" icon-"] {font-family: 'icomoon'; speak: none; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; line-height: 1; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;}
+.icon-facebook:before {content: "\e007";}
+.icon-twitter:before {content: "\e006";}
+.icon-youtube:before {content: "\e005";}
+
+/* Tablet (Portrait)
+########################################################################################################################################################################*/
+
+@media only screen and (min-width: 599px) {
+
+#row-top .phone-strapline {display:none;}	
+	
+/* Links */
+a.button {float:right;}
+
+/* HIDE TABS 2,3 & 4 ON PAGELOAD
+******************************************************/
+body.swu #tab2, body.swu #tab3, body.swu #tab4 {display:none;}
+	
+/* ACTIVE TABS
+******************************************************/
+body.swu #row-top ul.tabs li a.active {background:transparent url('../../images/hp/pointers-sprite-2.png') no-repeat center -550px;  cursor:default;}
+body.research #row-top ul.tabs li a.active {background:transparent url('../../images/hp/pointers-sprite-2.png') no-repeat center -660px;  cursor:default;}
+body.business #row-top ul.tabs li a.active {background:transparent url('../../images/hp/pointers-sprite-2.png') no-repeat center -770px; cursor:default;}
+body.alumni #row-top ul.tabs li a.active {background:transparent url('../../images/hp/pointers-sprite-2.png') no-repeat center -880px; cursor:default;}
+
+/* LOGO
+******************************************************/
+.logo {width:225px; height:55px;}
+	
+/* TOP ROW
+******************************************************/
+#row-top {height:600px;}
+/* Strapline */
+#row-top .mobile-strapline {font-size:1.3em;}
+/* Quotes */
+#row-top #tab1 .quote-inner ul.ctas li, #row-top #tab1 .quote-inner ul.links li {float:left; margin:0 20px 20px 0;}
+#row-top #tab1 .quote-inner ul.links li {margin:0 20px 10px 0;} /* Tweak to fit in 'Clearing and Adjustment 2014' link - 18/07/2014 */
+/* Course search */
+#row-top #tab1 .quote-inner form.course-search {clear:both;}
+#row-top #tab1 .quote-inner form.course-search input.quick-search {width:75%;}
+#row-top #tab1 .quote-inner form.course-search input.search-button {width:24%; float:right;}
+/* Tabs */
+#row-top ul.tabs {display:block; margin:0; padding:0 .5em; position:absolute; bottom:1em; width:100%;}
+#row-top ul.tabs li {list-style:none; padding:0; margin:.2em; width:23.5%; display:table; float:left; height:100px;}
+#row-top ul.tabs li a {background:transparent url('../../images/hp/pointers-sprite-2.png') no-repeat center 0px; display:table-cell; text-align:center; vertical-align:middle; padding:23px 0.7em 0 0.7em; font-size:1.4em; font-weight:bold; text-shadow: 2px 2px 5px #000;}
+#row-top ul.tabs li a:hover {text-decoration:none;}
+
+/* NEWS ROW
+******************************************************/
+#row-news h2 {float:left;}
+.flexslider .card {width:20%; float:left;}
+.flexslider .card img {max-width:100%; float:none; margin:0 0 .5em 0;}
+
+/* CORPORATE ROW
+******************************************************/
+#row-corporate .corp-but {float:left; width:48%; margin-right:.7em;}
+
+/* AWARDS ROW
+******************************************************/
+#row-awards .one .award .line-one {font-size:2.4em;}
+#row-awards .three .award .line-one {font-size:1.5em; font-weight:bold;}
+
+}
+
+/* Tablet (Landscape) & Desktop (Small) 
+########################################################################################################################################################################*/
+
+@media only screen and (min-width: 879px) {
+/* Text */
+p, ol, ul {font-size:.9em;}
+
+.inner-wrapper {max-width:990px; margin:0 auto; padding:0;}
+
+/* BACKGROUND IMAGES
+******************************************************/
+body.swu #row-top {background:url('../../images/hp/banner-swu-new.jpg') no-repeat center top;}
+body.research #row-top {background:url('../../images/hp/banner-sprite.jpg') no-repeat center top;}
+body.business #row-top {background:url('../../images/hp/banner-sprite.jpg') no-repeat center -650px;}
+body.alumni #row-top {background:url('../../images/hp/banner-sprite.jpg') no-repeat center -1300px;}
+/* Preloads the big banner images by loading them into spans with no dimensions */
+.preload-banner-sprite {background:url('../../images/hp/banner-sprite.jpg');}
+
+/* HEADER
+******************************************************/
+#header {background:transparent; height:130px; margin:0; overflow:hidden;}
+/* Logo */
+#uni-logo {float:left; padding:30px 0 0 0;}
+.logo {width:276px; height:67px;}
+/* Mobile menu */
+#header .mobilemenu {float:right; width:auto;}
+#header #mobilelinks {display:inline-block!important; background-color:rgba(51,51,51,0.2); border-bottom-left-radius:5px; border-bottom-right-radius:5px; padding-right:10px;}
+#header #mainmobilelinks {display:none;}
+
+/* TOP ROW
+******************************************************/
+#row-top {height:650px; border-bottom:#EAEADE solid 5px;}
+/* Strapline */
+#row-top .mobile-strapline {display:none;}
+#row-top .strapline {font-weight:bold; display:inline-block; color:#FFF; font-size:1.7em; float:right; margin:0; text-align:right; text-shadow:none; font-style:normal; background:#B9181D; opacity:0.8; padding:5px 10px; max-width:400px;}
+#row-top a .strapline {font-size:1.4em;}
+#row-top #tab3 .strapline {background:#B05B0B; opacity:.9;}
+/* Quotes */
+#row-top .quote-outer {padding:0 0 40px 0; width:440px; float:left;}
+#row-top #tab1 .quote-outer {background:transparent url('../../images/hp/quote-sprite.png') no-repeat 50px bottom; /*Addition 21/07/2014*/ width:490px;}
+#row-top #tab2 .quote-outer {background:transparent url('../../images/hp/quote-sprite.png') no-repeat -450px bottom;}
+#row-top #tab3 .quote-outer {background:transparent url('../../images/hp/quote-sprite.png') no-repeat -950px bottom;}
+#row-top #tab4 .quote-outer {background:transparent url('../../images/hp/quote-sprite.png') no-repeat -1450px bottom;}
+#row-top .quote-inner ul li a span:hover, #row-top .quote-inner h2 a span:hover {text-decoration:underline;}
+/* Course search */
+#row-top #tab1 .quote-inner form.course-search {margin:0;}
+#row-top #tab1 .quote-inner form.course-search input.quick-search {width:82%;}
+#row-top #tab1 .quote-inner form.course-search input.search-button {width:15%;}
+/* Tabs */
+#row-top ul.tabs {bottom:2em; padding:0;}
+#row-top ul.tabs li {width:24%; margin:.3em;}
+#row-top ul.tabs li.swu a:hover {background:transparent url('../../images/hp/pointers-sprite-2.png') no-repeat center -110px;}
+#row-top ul.tabs li.research a:hover {background:transparent url('../../images/hp/pointers-sprite-2.png') no-repeat center -220px;}
+#row-top ul.tabs li.business a:hover {background:transparent url('../../images/hp/pointers-sprite-2.png') no-repeat center -330px;}
+#row-top ul.tabs li.alumni a:hover {background:transparent url('../../images/hp/pointers-sprite-2.png') no-repeat center -440px;}
+
+/* NEWS ROW
+******************************************************/
+#row-news .inner-wrapper {padding:1em 0 .5em 0;}
+.flexslider {max-width:990px;}
+.flexslider .card {width:21.4%;}
+
+/* CORPORATE ROW
+******************************************************/
+#row-corporate .inner-wrapper {padding:1.5em 0;}
+#row-corporate .corp-but {width:24%; margin-right:.5em;}
+
+/* AWARDS ROW
+******************************************************/
+#row-awards .inner-wrapper {padding:20px 0;}
+#row-awards .award-wrapper {width:31%; float:left;}
+/* Borders */
+#row-awards .one, #row-awards .two, #row-awards .three {border-top:none; border-bottom:none;}
+#row-awards .one {border-right:1px solid rgba(0, 0, 0, 0.1);}
+#row-awards .two {border-left:1px solid #FFF; border-right:1px solid rgba(0, 0, 0, 0.1);}
+#row-awards .three {border-left:1px solid #FFF;}
+/* Font size */
+#row-awards .one .award .line-one {font-size:2em;}
+#row-awards .three .award .line-one {font-size:1.1em; font-weight:bold;}
+
+/* FOOTER ROW
+******************************************************/
+#row-footer .inner-wrapper {padding:2.5em 0;}
+#row-footer #cssmenu ul ul {display: block!important;} 
+#row-footer #cssmenu ul li {float:left; width:25%; border:none; padding:0;}
+#row-footer #cssmenu ul li a {cursor:default;}
+#row-footer #cssmenu ul li ul { margin:1em 0 0 0;}
+#row-footer #cssmenu ul li ul li {float:none; width:100%; padding:0; margin:0 0 .7em 0;}
+#row-footer #cssmenu ul li ul li a {cursor:pointer;}
+#row-footer #cssmenu ul li ul li a span:hover {text-decoration:underline;}
+#row-footer #cssmenu ul li.has-sub a span.header {background:none;}
+#row-footer #cssmenu ul li.has-sub.active a span.header {background:none;}
+#row-footer #cssmenu ul li.connect ul {margin-top:1.2em;}
+}
+
+/* Desktop (Large)
+########################################################################################################################################################################*/
+
+@media only screen and (min-width: 1450px) {
+.inner-wrapper, .flexslider {max-width:1200px;}
+
+
+/* TOP ROW
+******************************************************/
+/* Strapline */
+#row-top #tab3 .strapline, #row-top #tab4 .strapline {max-width:435px;}
+/* Tabs */
+#row-top ul.tabs li {height:85px; width:24.2%;}
+
+/* NEWS ROW
+******************************************************/
+.flexslider .slides {padding:0;}
+.flex-direction-nav a {width: 65px; height: 65px; top:50%;}
+.flex-direction-nav a:before {font-size:70px;}
+.flexslider .flex-prev {left:-75px;}
+.flexslider .flex-next {right:-65px;}
+.flexslider .card {width:22%;}
+
+/* CORPORATE ROW
+******************************************************/
+#row-corporate .corp-but-pic {width:100px; height:100px;}
+#row-corporate .maps .corp-but-pic {background-position:left -100px;}
+#row-corporate .jobs .corp-but-pic {background-position:left -200px;}
+#row-corporate .about .corp-but-pic {background-position:left -300px;}
+#row-corporate .corp-but-text {height:100px;}
+
+/* AWARDS ROW
+******************************************************/
+#row-awards .one .award .line-one {font-size:2.4em;}
+#row-awards .three .award .line-one {font-size:1.5em; font-weight:bold;}
+
+}
+
+/* Desktop (Extra Large)
+########################################################################################################################################################################*/
+
+@media only screen and (min-width: 1800px) {
+.inner-wrapper, .flexslider {max-width:1400px;}
+
+/* NEWS ROW
+******************************************************/
+.flexslider .card {width:22.3%;}
+}
