@@ -14,10 +14,7 @@
 - The first nav tab, "Study with Us" has confusing links. Are these sub-pages, seperate from the website? separate part of the website??
 
 2. Match Between System and the Real World
-	The system should speak the users' language, with words, phrases and concepts familiar to the user, rather than system-oriented terms. Follow real-world conventions, making information appear in a natural and logical order.
-
-	On the Web, you have to be aware that users will probably be coming from diverse backgrounds, so figuring out their "language" can be a challenge.
-
+	
 - Overall, language seems alright.
 - Landing page seems designed for people who have no idea about the university. Functions as a main overview of the University's
 - System and real-world seems to match.
@@ -28,10 +25,10 @@
 - loads fairly consistently across multiple broswers
 - background graphic on home page is not web-optimized
 
-4. Consistency and Standardsaa
+4. Consistency and Standards
 - Color scheme attempts to convey consistancy across nav tabs on home page. However, once you click a link, the background of the site appears to have a random color. To maintain consistancy, color should be the same as the link tab on the home page.
 - Tab header text consistant
-- consistant appearance across multiple browsers
+- consistant appearance across multiple browsers, as well as on multiple devices.
 
 5. Error prevention
 - Forms are not validated in real-time. Must submit to see errors. Many forms now days will let you know if the text entered was not a valid email for the email field, etc.
@@ -40,6 +37,23 @@
 
 6.
 - Any page deeper in the hierarchy from home page is "constructed" with consistancy, but does not at all read that way through the design.
-
-
 - The navbar logo links to the homepage, as is standard 
+
+7. Flexibility and efficiency of use
+- search from home page links to Google search results within the University browser. From there, you can sort by date or relevance.
+- searched directly on Google, a short summary of the University comes up, and it is bookmarked easily
+
+8. Aesthetic and minimalistic design
+- while there are progressive levels of detail to the site, the hierarchy is difficult to follow one page in from the home page.
+- the homepage appears minimalistic, but does not function well as it is unclear which links are sub-categories, and where in the site you will be placed upon clicking.
+
+9.
+- Restricted Access pages have concise messages, and tell the user they must be logged in to view the content.
+- A page that cannot be found does not display an error code, rather it explains in plain words that the page is not found.
+- The page suggests other places within the site to look for the content that the user was trying to locate.
+- It does not store the request as a search query and suggest specific pages, but does present different locations to look for information. 
+
+10.
+- Help site for everything from staff to students, prospective and current students
+- There is a place to submit feedback to the sites' creators
+- The University has a Social Media presence, which makes its content accessible and easy to find.
