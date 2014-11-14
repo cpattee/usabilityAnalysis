@@ -295,16 +295,16 @@
 					
 					var settings = {
 						// the accordion's width
-						accordionW		: 1000,
+						accordionW		: 900,
 						// the accordion's height
-						accordionH		: 450,
+						accordionH		: 400,
 						// number of visible slices
-						visibleSlices	: 4,
+						visibleSlices	: 5,
 						// the height of a opened slice
 						// should not be more than accordionH
-						expandedHeight	: 350,
+						expandedHeight	: 200,
 						// speed when opening / closing a slice
-						animSpeed		: 250,
+						animSpeed		: 150,
 						// easing when opening / closing a slice
 						animEasing		: 'jswing',
 						// opacity value for the collapsed slices
