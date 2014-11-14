@@ -5,11 +5,14 @@
 		<meta charset="UTF-8" />
         <meta name="description" content="Vertical Sliding Accordion with jQuery" />
         <meta name="keywords" content="jquery, accordion, sliding, vertical, css3, hover, animation, slide, navigation" />
-		<meta name="author" content="Codrops" />
-		<!-- Style for the demo page -->
+		<meta name="author" content="" />
+		<!-- Style for the page -->
         <link rel="stylesheet" type="text/css" href="css/demo.css" />
 		<!-- Style of the component -->
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css" />
+
 		<noscript>
 			<link rel="stylesheet" type="text/css" href="css/styleNoJS.css" />
 		</noscript>
@@ -17,9 +20,12 @@
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&v2' rel='stylesheet' type='text/css'>
     </head>
     <body>
-		<div class="header">
-			<h1>University of Leicester Usability Evaluation</h1>
-		</div>
+			<div class="header">
+					<div class="col-sm-12">
+						<h1>University of Leicester Usability Evaluation</h1>
+					</div>
+			</div>
+		
 		<div id="header-ghost"></div>
 		<div class="container">
 			<div id="va-accordion" class="va-container">
@@ -32,8 +38,17 @@
 						<div class="va-slice-cover">
 							<h3 class="va-title">Heuristic 1: Visibility of System Status</h3>
 							<div class="va-content">
-								<div class="rating">&#x2605;&#x2605;&#x2605;/5</div>
-								<div class="heuristicTrigger" data-destination="1">Click here to auto-scroll to detailed evaluation based on this heuristic</div>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star-empty"></span>
+								<span class="glyphicon glyphicon-star-empty"></span>
+								<div class="heuristicTrigger" data-destination="1">
+									<button type="button" class="btn btn-success">
+										<span class="glyphicon glyphicon-plus"></span>
+										More
+									</button>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -41,7 +56,17 @@
 						<div class="va-slice-cover">
 							<h3 class="va-title">Heuristic 2: Match Between System and the Real World</h3>
 							<div class="va-content">
-								<div class="heuristicTrigger" data-destination="2">Click here to auto-scroll to detailed evaluation based on this heuristic</div>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<div class="heuristicTrigger" data-destination="2">
+									<button type="button" class="btn btn-success">
+										<span class="glyphicon glyphicon-plus"></span>
+										More
+									</button>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -49,7 +74,17 @@
 						<div class="va-slice-cover">
 							<h3 class="va-title">Heuristic 3: User Control and Freedom</h3>
 							<div class="va-content">
-								<div class="heuristicTrigger" data-destination="3">Click here to auto-scroll to detailed evaluation based on this heuristic</div>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star-empty"></span>
+								<div class="heuristicTrigger" data-destination="3">
+									<button type="button" class="btn btn-success">
+										<span class="glyphicon glyphicon-plus"></span>
+										More
+									</button>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -57,7 +92,16 @@
 						<div class="va-slice-cover">
 							<h3 class="va-title">Heuristic 4: Consistency and Standards</h3>
 							<div class="va-content">
-								<div class="heuristicTrigger" data-destination="4">Click here to auto-scroll to detailed evaluation based on this heuristic</div>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star-empty"></span>
+								<span class="glyphicon glyphicon-star-empty"></span>
+								<span class="glyphicon glyphicon-star-empty"></span>
+								<span class="glyphicon glyphicon-star-empty"></span>
+								<div class="heuristicTrigger" data-destination="4"></div>
+									<button type="button" class="btn btn-success">
+										<span class="glyphicon glyphicon-plus"></span>
+										More
+									</button>
 							</div>
 						</div>
 					</div>
@@ -65,7 +109,17 @@
 						<div class="va-slice-cover">
 							<h3 class="va-title">Heuristic 5: Error Prevention</h3>
 							<div class="va-content">
-								<div class="heuristicTrigger" data-destination="5">Click here to auto-scroll to detailed evaluation based on this heuristic</div>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star-empty"></span>
+								<span class="glyphicon glyphicon-star-empty"></span>
+								<span class="glyphicon glyphicon-star-empty"></span>
+								<div class="heuristicTrigger" data-destination="5">
+									<button type="button" class="btn btn-success">
+										<span class="glyphicon glyphicon-plus"></span>
+										More
+									</button>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -73,7 +127,17 @@
 						<div class="va-slice-cover">
 							<h3 class="va-title">Heuristic 6: Recognition Not Recall</h3>
 							<div class="va-content">
-								<div class="heuristicTrigger" data-destination="6">Click here to auto-scroll to detailed evaluation based on this heuristic</div>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star-empty"></span>
+								<span class="glyphicon glyphicon-star-empty"></span>
+								<div class="heuristicTrigger" data-destination="6">
+									<button type="button" class="btn btn-success">
+										<span class="glyphicon glyphicon-plus"></span>
+										More
+									</button>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -81,7 +145,17 @@
 						<div class="va-slice-cover">
 							<h3 class="va-title">Heuristic 7: Flexibility and Efficiency of Use</h3>
 							<div class="va-content">
-								<div class="heuristicTrigger" data-destination="7">Click here to auto-scroll to detailed evaluation based on this heuristic</div>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<div class="heuristicTrigger" data-destination="7">
+									<button type="button" class="btn btn-success">
+										<span class="glyphicon glyphicon-plus"></span>
+										More
+									</button>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -89,7 +163,17 @@
 						<div class="va-slice-cover">
 							<h3 class="va-title">Heuristic 8: Aesthetic and Minimalistic Design</h3>
 							<div class="va-content">
-								<div class="heuristicTrigger" data-destination="8">Click here to auto-scroll to detailed evaluation based on this heuristic</div>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star-empty"></span>
+								<span class="glyphicon glyphicon-star-empty"></span>
+								<span class="glyphicon glyphicon-star-empty"></span>
+								<div class="heuristicTrigger" data-destination="8">
+							<button type="button" class="btn btn-success">
+										<span class="glyphicon glyphicon-plus"></span>
+										More
+									</button>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -97,7 +181,17 @@
 						<div class="va-slice-cover">
 							<h3 class="va-title">Heuristic 9: Help Users Recognize, Diagnose, and Recover From Errors</h3>
 							<div class="va-content">
-								<div class="heuristicTrigger" data-destination="9">Click here to auto-scroll to detailed evaluation based on this heuristic</div>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<div class="heuristicTrigger" data-destination="9">
+									<button type="button" class="btn btn-success">
+										<span class="glyphicon glyphicon-plus"></span>
+										More
+									</button>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -105,54 +199,119 @@
 						<div class="va-slice-cover">
 							<h3 class="va-title">Heuristic 10: Help and Documentation</h3>
 							<div class="va-content">
-								<div class="heuristicTrigger" data-destination="10">Click here to auto-scroll to detailed evaluation based on this heuristic</div>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<div class="heuristicTrigger" data-destination="10">
+									<button type="button" class="btn btn-success">
+										<span class="glyphicon glyphicon-plus"></span>
+										More
+									</button>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+	<div class="container-fluid">
 		<div class="detailedContent">
-			<div id="heuristicDetail1" class="detailedHeuristicTitle">Heuristic 1: Visibility of System Status</div>
-			<div class="detailedHeuristicContent">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit sem ut justo semper dapibus id eget magna. Curabitur in rutrum neque. Phasellus eleifend porttitor enim. Phasellus aliquam elit luctus finibus mattis. Vivamus orci eros, cursus nec lacinia in, auctor id lorem. Praesent vel volutpat dui. Mauris urna est, volutpat id orci sit amet, sodales varius nisl. Vestibulum iaculis consectetur massa, in dignissim libero mollis ac. Aenean lacinia justo sed sem lacinia, vitae mollis orci interdum. Phasellus volutpat risus dictum est finibus rutrum. Donec vitae dolor nisl. Ut consectetur, massa non mattis vestibulum, leo leo laoreet leo, at dictum nisl ipsum ut nunc. In varius nibh in ullamcorper rhoncus.
+			<div id="heuristicDetail1" class="page-header">
+				Heuristic 1: Visibility of System Status
 			</div>
-			<div id="heuristicDetail2" class="detailedHeuristicTitle">Heuristic 2: Match Between System and the Real World</div>
 			<div class="detailedHeuristicContent">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit sem ut justo semper dapibus id eget magna. Curabitur in rutrum neque. Phasellus eleifend porttitor enim. Phasellus aliquam elit luctus finibus mattis. Vivamus orci eros, cursus nec lacinia in, auctor id lorem. Praesent vel volutpat dui. Mauris urna est, volutpat id orci sit amet, sodales varius nisl. Vestibulum iaculis consectetur massa, in dignissim libero mollis ac. Aenean lacinia justo sed sem lacinia, vitae mollis orci interdum. Phasellus volutpat risus dictum est finibus rutrum. Donec vitae dolor nisl. Ut consectetur, massa non mattis vestibulum, leo leo laoreet leo, at dictum nisl ipsum ut nunc. In varius nibh in ullamcorper rhoncus.
+				 <p>University of Leicester has a new take on the navigation bar. The navigation is the whole page above the fold. At the bottom-most visible part, the tabs function as navigation bar tabs. When one is clicked, the enlarged speech box above displays the name of the label clicked, and has multiple sub-navigation elements within the box. While it is interesting in theory, it fails to appear as a cohesive whole. Most boxes have multiple links, but some, such as the first link (Study with Us) contains a search bar for your course, a link for distance learning, a link for International Students, a link to a page to book an open day visit, and a link to a form to request a prospectus. These are too many different options for a sub-nav menu, since they each take you different places within the site even though they stem from the same main navigation category. Because of this, it is difficult to assess the hierarchy of the website.
+				 </p>
+				 <img class="img-l" src="images/screenshots/1a.png">
+				 <img class="img-l" src="images/screenshots/1c.png">
+					</br>
+				 <img class="img-l" src="images/screenshots/1e.png">
+				 <img class="img-l" src="images/screenshots/1g.png">
 			</div>
-			<div id="heuristicDetail3" class="detailedHeuristicTitle">Heuristic 3: User Control and Freedom</div>
+			<div id="heuristicDetail2" class="page-header">
+				Heuristic 2: Match Between System and the Real World
+			</div>
 			<div class="detailedHeuristicContent">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit sem ut justo semper dapibus id eget magna. Curabitur in rutrum neque. Phasellus eleifend porttitor enim. Phasellus aliquam elit luctus finibus mattis. Vivamus orci eros, cursus nec lacinia in, auctor id lorem. Praesent vel volutpat dui. Mauris urna est, volutpat id orci sit amet, sodales varius nisl. Vestibulum iaculis consectetur massa, in dignissim libero mollis ac. Aenean lacinia justo sed sem lacinia, vitae mollis orci interdum. Phasellus volutpat risus dictum est finibus rutrum. Donec vitae dolor nisl. Ut consectetur, massa non mattis vestibulum, leo leo laoreet leo, at dictum nisl ipsum ut nunc. In varius nibh in ullamcorper rhoncus.
+				<p>This website seems to blend properly with the real applications of the university and the real world. Furthermore, the index file is meant to cater to student new to the university. A lot of the material tested on the index page gives a good glimpse on the colleges life and other opportunities in college. The fluidity and the comprehensive design provides prospective users a better way to community.
+				</p>
+				<img class="img-l" src="images/screenshots/2a.png">
 			</div>
-			<div id="heuristicDetail4" class="detailedHeuristicTitle">Heuristic 4: Consistency and Standards</div>
+			<div id="heuristicDetail3" class="page-header">
+				Heuristic 3: User Control and Freedom
+			</div>
 			<div class="detailedHeuristicContent">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit sem ut justo semper dapibus id eget magna. Curabitur in rutrum neque. Phasellus eleifend porttitor enim. Phasellus aliquam elit luctus finibus mattis. Vivamus orci eros, cursus nec lacinia in, auctor id lorem. Praesent vel volutpat dui. Mauris urna est, volutpat id orci sit amet, sodales varius nisl. Vestibulum iaculis consectetur massa, in dignissim libero mollis ac. Aenean lacinia justo sed sem lacinia, vitae mollis orci interdum. Phasellus volutpat risus dictum est finibus rutrum. Donec vitae dolor nisl. Ut consectetur, massa non mattis vestibulum, leo leo laoreet leo, at dictum nisl ipsum ut nunc. In varius nibh in ullamcorper rhoncus.
+				<p>User can easily navigate around the website. Easy exits are available in every page. By clicking on the university logo the user has the ability to go back to the homepage. In terms of accessibility, the website loads coherently across different web browsers and different internet devices. However, the background images are not coherently loading on all devices at times.
+				</p>
+				<img class="img-l" src="images/screenshots/3a.png">
 			</div>
-			<div id="heuristicDetail5" class="detailedHeuristicTitle">Heuristic 5: Error Prevention</div>
+			<div id="heuristicDetail4" class="page-header">
+				Heuristic 4: Consistency and Standards
+			</div>
 			<div class="detailedHeuristicContent">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit sem ut justo semper dapibus id eget magna. Curabitur in rutrum neque. Phasellus eleifend porttitor enim. Phasellus aliquam elit luctus finibus mattis. Vivamus orci eros, cursus nec lacinia in, auctor id lorem. Praesent vel volutpat dui. Mauris urna est, volutpat id orci sit amet, sodales varius nisl. Vestibulum iaculis consectetur massa, in dignissim libero mollis ac. Aenean lacinia justo sed sem lacinia, vitae mollis orci interdum. Phasellus volutpat risus dictum est finibus rutrum. Donec vitae dolor nisl. Ut consectetur, massa non mattis vestibulum, leo leo laoreet leo, at dictum nisl ipsum ut nunc. In varius nibh in ullamcorper rhoncus.
+				<p>The website design is at times inconsistent. Color schemes are not coherent throughout the website. For example, color scheme attempts to convey consistency across nav tabs on home page. However, once you click a link, the background of the site appears to have a random color. To maintain consistency, color should be the same as the link tab on the home page. However, it is worthy mentioning the tab headers load smoothly across web browsers and devices
+				</p>
+				 <img class="img-l" src="images/screenshots/4a.png">
+				 <img class="img-l" src="images/screenshots/4b.png">
+				 <img class="img-l" src="images/screenshots/4c.png">
+				 <img class="img-l" src="images/screenshots/4d.png">
+				 <img class="img-l" src="images/screenshots/4e.png">
+				 <img class="img-l" src="images/screenshots/4f.png">
+				 <img class="img-l" src="images/screenshots/4g.png">
+				 <img class="img-l" src="images/screenshots/4h.png">
 			</div>
-			<div id="heuristicDetail6" class="detailedHeuristicTitle">Heuristic 6: Recognition Not Recall</div>
+			<div id="heuristicDetail5" class="page-header">
+				Heuristic 5: Error Prevention
+			</div>
 			<div class="detailedHeuristicContent">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit sem ut justo semper dapibus id eget magna. Curabitur in rutrum neque. Phasellus eleifend porttitor enim. Phasellus aliquam elit luctus finibus mattis. Vivamus orci eros, cursus nec lacinia in, auctor id lorem. Praesent vel volutpat dui. Mauris urna est, volutpat id orci sit amet, sodales varius nisl. Vestibulum iaculis consectetur massa, in dignissim libero mollis ac. Aenean lacinia justo sed sem lacinia, vitae mollis orci interdum. Phasellus volutpat risus dictum est finibus rutrum. Donec vitae dolor nisl. Ut consectetur, massa non mattis vestibulum, leo leo laoreet leo, at dictum nisl ipsum ut nunc. In varius nibh in ullamcorper rhoncus.
+				<p>Error prevention mechanisms throughout the website does a good job of keeping the user in the right direction. However, it fails at times. For example, when submitting a form, error checks are not done in real time and only checks for error after user clicks submit. Otherwise, as mentioned, red stars clearly indicate which fields in a form are necessary to be filled out. Also, in some drop down menus in forms, user is given only one opiton, therefore, a drop down is not necessary for choosing one item.
+				</p>
+				 <img class="img-thumbnail" src="images/screenshots/5a.png">
+				 <img class="img-thumbnail" src="images/screenshots/5b.png">
 			</div>
-			<div id="heuristicDetail7" class="detailedHeuristicTitle">Heuristic 7: Flexibility and Efficiency of Use</div>
+			<div id="heuristicDetail6" class="page-header">
+				Heuristic 6: Recognition Not Recall
+			</div>
 			<div class="detailedHeuristicContent">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit sem ut justo semper dapibus id eget magna. Curabitur in rutrum neque. Phasellus eleifend porttitor enim. Phasellus aliquam elit luctus finibus mattis. Vivamus orci eros, cursus nec lacinia in, auctor id lorem. Praesent vel volutpat dui. Mauris urna est, volutpat id orci sit amet, sodales varius nisl. Vestibulum iaculis consectetur massa, in dignissim libero mollis ac. Aenean lacinia justo sed sem lacinia, vitae mollis orci interdum. Phasellus volutpat risus dictum est finibus rutrum. Donec vitae dolor nisl. Ut consectetur, massa non mattis vestibulum, leo leo laoreet leo, at dictum nisl ipsum ut nunc. In varius nibh in ullamcorper rhoncus.
+				<p>Good labs and link descriptions are available throughout the website. When directing the user to a different website, the link description clearly states which website it will be redirecting to. Furthermore, any page deeper in the hierarchy from home page is "constructed" with consistency, but does not at all read that way through the design.
+				</p>
+				 <img class="img-l" src="images/screenshots/6a.png">
 			</div>
-			<div id="heuristicDetail8" class="detailedHeuristicTitle">Heuristic 8: Aesthetic and Minimalistic Design</div>
+			<div id="heuristicDetail7" class="page-header">
+				Heuristic 7: Flexibility and Efficiency of Use
+			</div>
 			<div class="detailedHeuristicContent">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit sem ut justo semper dapibus id eget magna. Curabitur in rutrum neque. Phasellus eleifend porttitor enim. Phasellus aliquam elit luctus finibus mattis. Vivamus orci eros, cursus nec lacinia in, auctor id lorem. Praesent vel volutpat dui. Mauris urna est, volutpat id orci sit amet, sodales varius nisl. Vestibulum iaculis consectetur massa, in dignissim libero mollis ac. Aenean lacinia justo sed sem lacinia, vitae mollis orci interdum. Phasellus volutpat risus dictum est finibus rutrum. Donec vitae dolor nisl. Ut consectetur, massa non mattis vestibulum, leo leo laoreet leo, at dictum nisl ipsum ut nunc. In varius nibh in ullamcorper rhoncus.
+			<p>Searching in the university website helps novice users catch up with the expert users.  The search within the site is powered by Google and yields great results. Therefore, a novice user can easily find where certain parts of the website is. Furthermore, the university comes up easily on search engine research results with an eloquent and informative title.
+			</p>
+			<img class="img-l" data-src="holder.js/140x140" src="images/screenshots/7a.png">
+			<img class="img-l" data-src="holder.js/140x140" src="images/screenshots/7b.png">
 			</div>
-			<div id="heuristicDetail9" class="detailedHeuristicTitle">Heuristic 9: Help Users Recognize, Diagnose, and Recover From Errors</div>
+			<div id="heuristicDetail8" class="page-header">
+				Heuristic 8: Aesthetic and Minimalistic Design
+			</div>
 			<div class="detailedHeuristicContent">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit sem ut justo semper dapibus id eget magna. Curabitur in rutrum neque. Phasellus eleifend porttitor enim. Phasellus aliquam elit luctus finibus mattis. Vivamus orci eros, cursus nec lacinia in, auctor id lorem. Praesent vel volutpat dui. Mauris urna est, volutpat id orci sit amet, sodales varius nisl. Vestibulum iaculis consectetur massa, in dignissim libero mollis ac. Aenean lacinia justo sed sem lacinia, vitae mollis orci interdum. Phasellus volutpat risus dictum est finibus rutrum. Donec vitae dolor nisl. Ut consectetur, massa non mattis vestibulum, leo leo laoreet leo, at dictum nisl ipsum ut nunc. In varius nibh in ullamcorper rhoncus.
+				<p>The homepage sports a showy design. However, as the user explores sub pages, the website takes on more of a minimalistic design. To be consistent throughout, the homepage should also adopt a minimalist design or rock a showy design in other pages. Furthermore, while there are progressive levels of detail to the site, the hierarchy is difficult to follow one page in from the home page.
+				</p>
 			</div>
-			<div id="heuristicDetail10" class="detailedHeuristicTitle">Heuristic 10: Help and Documentation</div>
+			<div id="heuristicDetail9" class="page-header">
+				Heuristic 9: Help Users Recognize, Diagnose, and Recover From Errors
+			</div>
 			<div class="detailedHeuristicContent">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit sem ut justo semper dapibus id eget magna. Curabitur in rutrum neque. Phasellus eleifend porttitor enim. Phasellus aliquam elit luctus finibus mattis. Vivamus orci eros, cursus nec lacinia in, auctor id lorem. Praesent vel volutpat dui. Mauris urna est, volutpat id orci sit amet, sodales varius nisl. Vestibulum iaculis consectetur massa, in dignissim libero mollis ac. Aenean lacinia justo sed sem lacinia, vitae mollis orci interdum. Phasellus volutpat risus dictum est finibus rutrum. Donec vitae dolor nisl. Ut consectetur, massa non mattis vestibulum, leo leo laoreet leo, at dictum nisl ipsum ut nunc. In varius nibh in ullamcorper rhoncus.
+				<p>The website does a good job of preventing the user from committing errors. For example, when the user attempts to access contents that requires logging in, proper error messages with elaborate descriptions are shown to the user. Furthermore, the error pages redirect user to a proper page. Therefore, at all times the user is not lost in the website.
+				</p>
+				 <img class="img-l" src="images/screenshots/9a.png">
+				 <img class="img-l" src="images/screenshots/9b.png">
 			</div>
+			<div id="heuristicDetail10" class="page-header">
+				Heuristic 10: Help and Documentation
+			</div>
+			<div class="detailedHeuristicContent">
+				<p>Help and documentation is available for all types of users that visit the site (prospective and current students, staff, faculty, etc.). The user is able to find help ranging from help navigating the site to help on applying to the college. Furthermore, a form and an email address of the webmaster is available for help or feedback. The university also has a social media prescience which helps students find it. 
+				</p>
+				 <img class="img-l" src="images/screenshots/10.png">
+			</div>
+		</div>
 		</div>
 		<div class="footer">
 			<div class="scrollToTopTrigger" style="float:left;">^ scroll to top</div>
