@@ -1,0 +1,11 @@
+
+1. Visibility of system status
+	
+- Nice idea (in theory) that takes a new perspective on the navigation bar.
+- Home page design inconsistent with design of deeper hierarchy
+- However, the consistancy remains with tab title and nav item title
+- Color bar inconsistent with landing page's theme
+- Hard to tell the navigation structure/hierarchy of website.
+- The first nav tab, "Study with Us" has confusing links. Are these sub-pages, seperate from the website? separate part of the website??
+
+University of Leicester has a new take on the navigation bar. The navigation is the whole page above the fold. At the bottom-most visible part, the tabs function as navigation bar tabs. When one is clicked, the enlarged speech box above displays the name of the label clicked, and has multiple sub-navigation elements within the box. While it is interesting in theory, it fails to appear as a cohesive whole. Most boxes have multiple links, but some, such as the first link (Study with Us) containes a search bar for your course, a link for distance learning, a link for Internatinal Students, a link to a page to book an open day visit, and a link to a form to request a prospectus. These are too many different options for a sub-nav menu, since they each take you different places within the site even though they stem from the same main navigation category. Because of this, it makes it difficult to understand the structure and hierarchy of the site.

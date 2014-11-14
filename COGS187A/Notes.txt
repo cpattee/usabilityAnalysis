@@ -1,12 +1,8 @@
 ////EVALUATION NOTES////////////
 
 1. Visibility of system status
-	The system should always keep users informed about what is going on, through appropriate feedback within reasonable time. Probably the two most important things that users need to know at your site are:
-		"Where am I?"
-		"Where can I go next?"
-	Make sure each page is branded and that you indicate which section it belongs to. Links to other pages should be clearly marked. Since users could be jumping to any part of your site from somewhere else, you need to include this status on every page.
 	
-- Nice idea (in theory) that takes a new perspective on...
+- Nice idea (in theory) that takes a new perspective on the navigation bar.
 - Home page design inconsistent with design of deeper hierarchy
 - However, the consistancy remains with tab title and nav item title
 - Color bar inconsistent with landing page's theme
